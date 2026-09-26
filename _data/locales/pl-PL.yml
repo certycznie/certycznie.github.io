@@ -1,0 +1,84 @@
+# Polskie teksty interfejsu motywu Chirpy
+
+layout:
+  post: Wpis
+  category: Kategoria
+  tag: Tag
+
+tabs:
+  home: Strona główna
+  categories: Kategorie
+  tags: Tagi
+  archives: Archiwum
+  about: O mnie
+
+search:
+  hint: szukaj
+  cancel: Anuluj
+  no_results: Niestety, nic nie znaleziono.
+
+panel:
+  lastmod: Ostatnio zaktualizowane
+  trending_tags: Popularne tagi
+  toc: Spis treści
+
+copyright:
+  license:
+    template: Ten wpis jest udostępniony przez autora na licencji :LICENSE_NAME.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/deed.pl
+  brief: Niektóre prawa zastrzeżone.
+  verbose: >-
+    O ile nie zaznaczono inaczej, wpisy na tym blogu są udostępnione przez autora
+    na licencji Creative Commons Uznanie autorstwa 4.0 Międzynarodowe (CC BY 4.0).
+
+meta: Motyw :THEME na platformie :PLATFORM.
+
+not_found:
+  statement: Przepraszamy, ta strona nie istnieje albo została przeniesiona.
+
+notification:
+  update_found: Dostępna jest nowa wersja strony
+  update: Odśwież
+
+theme:
+  light: Jasny
+  dark: Ciemny
+  system: Systemowy
+
+post:
+  written_by: Autor
+  posted: Opublikowano
+  updated: Zaktualizowano
+  words: słów
+  pageview_measure: wyświetleń
+  read_time:
+    unit: min
+    prompt: czytania
+  edit: Edytuj ten wpis
+  relate_posts: Czytaj dalej
+  share: Udostępnij
+  button:
+    next: Nowszy
+    previous: Starszy
+    copy_code:
+      succeed: Skopiowano!
+    share_link:
+      title: Kopiuj link
+      succeed: Link skopiowany!
+
+df:
+  post:
+    strftime: "%d.%m.%Y"
+    dayjs: "LL"
+  archives:
+    strftime: "%m"
+    dayjs: "MMM"
+
+categories:
+  category_measure:
+    singular: kategoria
+    plural: kategorie
+  post_measure:
+    singular: wpis
+    plural: wpisy
